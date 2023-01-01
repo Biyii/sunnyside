@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 90vh;
+    background-image: url('./images/desktop/image-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+list-style-type: none;
+}
+.nav-list li{
+    color: #fff;
+    margin-left: 2rem;
+}
+.creative-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.creative{
+    margin-top: 7rem;
+}
+.creative h2{
+    color: #fff;
+
+}
+.arrow-down{
+    margin-top: 5rem;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    height: 35rem;
+    width: 100%;
+
+}
+.Transform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.egg{
+    width: 50%;
+    height: 100%;
+    background-image: url('./images/desktop/image-transform.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    height: 35rem;
+    width: 100%;
+}
+.cup{
+    width: 50%;
+    height: 100%;
+    background-image: url('./images/desktop/image-stand-out.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cover{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    height: 35rem;
+    width: 100%;
+}
+.cherries{
+    background-image: url('./images/desktop/image-graphic-design.jpg');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    place-content: center;
+    padding: 7rem 4rem 0 4rem;
+
+}
+.graphics{
+   
+}
+.photography{
+    background-image: url('./images/desktop/image-photography.jpg');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    place-content: center;
+    padding: 7rem 4rem 0 4rem;
+}
+.container4{
+    display: flex;
+    flex-direction: row;
+    height: 35rem;
+    width: 100%;
+
+}
+.client{
+    color: hsl(210, 4%, 67%); 
+}
+.subcontainer{
+display: flex;
+flex-direction: row;
+width: 100%;
+color: hsl(210, 4%, 67%);
+justify-content: center;
+padding: 5rem;
+}
+.subcontainer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+
+}
+
+.subcontainer2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem;
+}
+.subcontainer2 div img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+.emily{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    place-items: center;
+    margin-bottom: 2rem;
+}
+.container5{
+ display: flex;
+ flex-direction: row;
+ height: 22rem;
+ width: 100%;
+ 
+}
+.bottles{
+    height: 100%;
+    width: 25%;
+    background-image: url('./images/desktop/image-gallery-milkbottles.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slices{
+    height: 100%;
+    width: 25%;
+    background-image: url('./images/desktop/image-gallery-orange.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.cones{
+    height: 100%;
+    width: 25%;
+    background-image: url('./images/desktop/image-gallery-cone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cubes{
+    height: 100%;
+    width: 25%;
+    background-image: url('./images/desktop/image-gallery-sugarcubes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container6{
+    width: 100%;
+    background-color:  skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 3rem;
+    
+}
+.sunny{
+    color: hsl(168, 34%, 41%);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3rem;
+}
+.navlist{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    /* place-items: center; */
+    margin: 0;
+    padding: 0;
+}
+.navlistcontainer{
+    place-items: center;
+    margin: 1rem 0;
+
+}
+.navlist li{
+    color:  hsl(168, 34%, 41%);
+    margin-left: 2rem;
+}
+.navlist li:hover{
+    color: #fff;
+}
+.iconlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    place-items: center;
+    
+}
+.iconlist img{
+    margin-left: 2rem;
+
+}
+.iconlist img:hover{
+    color: #fff;
+    cursor: pointer;
+}
